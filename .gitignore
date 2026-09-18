@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.log
+
+venv/
+.venv/
+env/
+ENV/
+
+.ipynb_checkpoints/
+
+# Local datasets and potentially sensitive clinical data
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+
+# Generated models and results
+models/*.joblib
+models/*.pkl
+results/*.csv
+results/*.png
+results/*.jpg
+results/*.pdf
+
+.DS_Store
+Thumbs.db
